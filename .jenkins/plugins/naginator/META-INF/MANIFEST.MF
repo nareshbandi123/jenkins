@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ikedam
+Build-Jdk: 1.8.0_181
+Extension-Name: naginator
+Specification-Title: Naginator is a plugin for Hudson that schedules a
+  new build
+     immediately following a build failure, thereby nagging the
+     project members that the build is failing.
+Implementation-Title: naginator
+Implementation-Version: 1.18
+Group-Id: org.jenkins-ci.plugins
+Short-Name: naginator
+Long-Name: Naginator
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Naginator+Plugin
+Plugin-Version: 1.18
+Hudson-Version: 1.565
+Jenkins-Version: 1.565
+Plugin-Dependencies: matrix-project:1.0
+Plugin-Developers: Andrew Bayer:abayer:andrew.bayer@gmail.com,Nicolas 
+ De Loof:ndeloof:nicolas.deloof@gmail.com,Tomer Galun:galunto:tomer4@g
+ mail.com
+

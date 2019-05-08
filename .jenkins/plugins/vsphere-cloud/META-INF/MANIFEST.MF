@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: peter
+Build-Jdk: 1.8.0_101
+Extension-Name: vsphere-cloud
+Specification-Title: Integrates Jenkins with a vSphere server
+Implementation-Title: vsphere-cloud
+Implementation-Version: 2.19
+Group-Id: org.jenkins-ci.plugins
+Short-Name: vsphere-cloud
+Long-Name: vSphere Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/vSphere+Cloud+Plugin
+Plugin-Version: 2.19
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Dependencies: workflow-basic-steps:2.0,cloudbees-folder:5.2.2,c
+ redentials:1.28,node-iterator-api:1.5,ssh-slaves:1.11
+Plugin-Developers: Jason Swager:jswager:jswager@alohaoi.com,Eric Lorda
+ hl:elordahl:elordahl@vt.edu
+

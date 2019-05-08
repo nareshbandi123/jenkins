@@ -1,0 +1,74 @@
+Started by user [8mha:////4PlJ7SKCPpM5Dqm0fbpYpTI2hKCOw9lsTKUvKBruQY28AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYe/dLi1CL9vMSi1OIMANjIKNHBAAAA[0mnareshb
+Building on master in workspace C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/nareshbandi123/test123.git # timeout=10
+Fetching upstream changes from https://github.com/nareshbandi123/test123.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress https://github.com/nareshbandi123/test123.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/full7mar^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/full7mar^{commit}" # timeout=10
+Checking out Revision 2c45bc856c130b4724c7a1e1ac458f9d27bcba0d (refs/remotes/origin/full7mar)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 2c45bc856c130b4724c7a1e1ac458f9d27bcba0d
+Commit message: "modified all test cases of ank as per new rep"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 2c45bc856c130b4724c7a1e1ac458f9d27bcba0d # timeout=10
+Path To MSBuild.exe: C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe
+Executing the command cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe ./SQLDMTestAutomation/SQLDMTestAutomation.sln " && exit %%ERRORLEVEL%% from C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1
+[test1] $ cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe ./SQLDMTestAutomation/SQLDMTestAutomation.sln " && exit %%ERRORLEVEL%%
+Active code page: 1252
+Microsoft (R) Build Engine version 4.7.3062.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 3/19/2019 12:25:49 AM.
+Project "C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation.sln" on node 1 (default targets).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|x86".
+Project "C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation.sln" (1) is building "C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj" (2) on node 1 (default targets).
+RemoveSolutionSettings:
+  Deleting file "bin\Debug\Ranorex.rxsettings".
+CopySolutionSettings:
+  Copying file from "C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\Ranorex.rxsettings" to "bin\Debug\Ranorex.rxsettings".
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Core.Resolver.dll" to "bin\Debug\Ranorex.Core.Resolver.dll".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  Copying file from "C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.rxtmg" to "bin\Debug\SQLDMTestAutomation.rxtmg".
+  Copying file from "C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.rxtst" to "bin\Debug\SQLDMTestAutomation.rxtst".
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  SQLDMTestAutomation -> C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\SQLDMTestAutomation.exe
+Done Building Project "C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj" (default targets).
+Done Building Project "C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation.sln" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.97
+Reportpath to merge. Base: C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\ Relative: ./Reports
+Merged path: C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\\Reports
+Executing : cmd.exe /C SQLDMTestAutomation.exe /runconfig:TestRun /reportfile:C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\\Reports\current-report.rxlog /junit
+[Debug] $ cmd.exe /C SQLDMTestAutomation.exe /runconfig:TestRun /reportfile:C:\Users\administrator.SIMPSONS\.jenkins\workspace\test1\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\\Reports\current-report.rxlog /junit
+[2019/03/19 00:25:58.779][Debug  ][Logger]: Console logger starting.
+[2019/03/19 00:25:59.004][Info   ][Test]: Test Suite 'SQLDMTestAutomation' started.
+[2019/03/19 00:25:59.037][Info   ][Test]: Test Case 'C166355_Verify_Query_Store_option_is_NOT_selected_by_default_for_2017_and_above_versions' started.
+[2019/03/19 00:25:59.115][Info   ][Test]: Test Module 'LaunchApplication' started.
+[2019/03/19 00:25:59.504][Info   ][Application]: Run application 'C:\Program Files\Idera\Idera SQL diagnostic manager\SQLdmDesktopClient.exe' with arguments '' in normal mode.
+[2019/03/19 00:26:00.080][Error  ][Module]: Failed to run application 'C:\Program Files\Idera\Idera SQL diagnostic manager\SQLdmDesktopClient.exe'.<br/>The system cannot find the file specified
+[2019/03/19 00:26:00.172][Failure][Test]: Test Module 'LaunchApplication' completed with status 'Failed'.
+[2019/03/19 00:26:00.173][Failure][Test]: Test Case 'C166355_Verify_Query_Store_option_is_NOT_selected_by_default_for_2017_and_above_versions' completed with status 'Failed'.
+[2019/03/19 00:26:00.176][Failure][Test]: Test Suite 'SQLDMTestAutomation' completed with status 'Failed'.
+[2019/03/19 00:26:00.273][Debug  ][Logger]: Console logger stopping.
+Build step 'Run a Ranorex test suite' changed build result to FAILURE
+Recording test results
+Finished: FAILURE

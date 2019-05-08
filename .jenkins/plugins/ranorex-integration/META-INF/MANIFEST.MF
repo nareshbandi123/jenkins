@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mstoegerer
+Build-Jdk: 1.8.0_161
+Extension-Name: ranorex-integration
+Specification-Title: This plugin provides an easy way to run a Ranorex
+  test suite as a build step in your Jenkins job. You can run a test s
+ uite as is without any need for configuration, or you can make severa
+ l different advanced settings.
+Implementation-Title: ranorex-integration
+Implementation-Version: 0.2.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: ranorex-integration
+Long-Name: Ranorex Test Execution Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Ranorex+Integration+Pl
+ ugin
+Plugin-Version: 0.2.0
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: Markus Stoegerer:mstoegerer:markus.stoegerer@gmail.
+ com
+

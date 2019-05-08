@@ -1,0 +1,55 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.27">
+  <suites>
+    <suite>
+      <file>D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\Reports\current-report.rxlog.junit.xml</file>
+      <name>SQLDMTestAutomation</name>
+      <duration>64.0</duration>
+      <timestamp>2019-03-27T10:05:09</timestamp>
+      <time>64</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>64.0</duration>
+          <className>SQLDMTestAutomation</className>
+          <testName>C164874_Select_two_2008_version_instances_for_monitoring_and_verify_query_plan_options_are_enabled</testName>
+          <skipped>false</skipped>
+          <stdout>---[Info] Waiting for 0ms.---
+	[timeout] 0
+-----------------------------
+---[Info] Run application &apos;C:\Program Files\Idera\Idera SQL diagnostic manager\SQLdmDesktopClient.exe&apos; with arguments &apos;&apos; in normal mode.---
+	[itemindex] 3
+	[codefile] d:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\LaunchApplication.cs
+-------------------------------------------------------------------------------------------------------------------------------------------
+---[Info] Waitin
+...[truncated 16212 chars]...
+------------------------------------------------------------------------------
+---[Info] Waiting for 0ms.---
+	[timeout] 0
+-----------------------------
+---[Info] Waiting for 0ms.---
+	[timeout] 0
+-----------------------------
+---[Info] Waiting for 5s.---
+	[itemindex] 3
+	[codefile] d:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\CloseSQLDMApplication.cs
+----------------------------
+---[Info] Waiting for 5000ms.---
+	[timeout] 5000
+--------------------------------
+</stdout>
+          <stderr>---[Warn] The following module variables are not bound to a data column:
+Server1, Server2---
+	[modulepath] SQLDMTestAutomation\C164874_Select_two_2008_version_instances_for_monitoring_and_verify_query_plan_options_are_enabled\AddServerAndVerifyQueryPlanOptionEnabled
+	[loglvl] Warn
+
+</stderr>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>64.0</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

@@ -1,0 +1,129 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.27">
+  <suites>
+    <suite>
+      <file>D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\Reports\current-report.rxlog.junit.xml</file>
+      <name>SQLDMTestAutomation</name>
+      <duration>61.0</duration>
+      <timestamp>2019-03-28T06:37:55</timestamp>
+      <time>61</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>60.0</duration>
+          <className>SQLDMTestAutomation</className>
+          <testName>C164843_verify_Estimated_Query_plan_is_collected_when_globe_icon_of_a_batch_type_SQL_statement_is_se</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>---[Error] Failed to find item &apos;SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.ServerCMWIN2016&apos;.&lt;br/&gt;No element found for path &apos;.//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]&apos; within 30s.---
+	[modulepath] SQLDMTestAutomation\C164843_verify_Estimated_Query_plan_is_collected_when_globe_icon_of_a_batch_type_SQL_statement_is_se\PreOnDemandEstimatedPlan
+	[stacktrace]    at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.&lt;&gt;c__DisplayClass75_0`1.&lt;Find&gt;b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at SQLDMTestAutomation.SQLDMTestAutomationRepositoryFolders.IderaSQLDiagnosticManagerSQLdmRepoAppFolder.get_ServerCMWIN2016() in D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomationRepository.cs:line 887
+   at SQLDMTestAutomation.SQLDMRecordings.PreOnDemandEstimatedPlan.Ranorex.Core.Testing.ITestModule.Run() in D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreOnDemandEstimatedPlan.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)
+	[codefile] D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreOnDemandEstimatedPlan.cs
+	[codeline] 83
+	[type] repoitem
+	[path] /form[@title~&apos;^Idera\ SQL\ diagnostic\ mana&apos;]//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]
+	[itempath] .//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]
+	[fullname] SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.ServerCMWIN2016
+	[id] 7e989666e9324b81935ea7242be88532
+	[timeout] 60000
+	[loglvl] Error
+	[itemindex] 0
+
+</errorStackTrace>
+          <errorDetails>The test case has errors.</errorDetails>
+          <stdout>---[Info] Waiting for 0ms.---
+	[timeout] 0
+-----------------------------
+---[Info] Run application &apos;C:\Program Files\Idera\Idera SQL diagnostic manager\SQLdmDesktopClient.exe&apos; with arguments &apos;&apos; in normal mode.---
+	[itemindex] 3
+	[codefile] D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\LaunchApplication.cs
+-------------------------------------------------------------------------------------------------------------------------------------------
+---[Info] Waiting for 0ms.---
+	[timeout] 0
+-----------------------------
+---[Info] Waiting for 3s.---
+	[itemindex] 4
+	[codefile] D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\LaunchApplication.cs
+----------------------------
+---[Info] Waiting for 3000ms.---
+	[timeout] 3000
+--------------------------------
+---[Info] Waiting 1m to exist. Associated repository item: &apos;SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.SQLDMToday&apos;---
+	[type] repoitem
+	[path] /form[@title~&apos;^Idera\ SQL\ diagnostic\ mana&apos;]//container[@automationid=&apos;viewContainer&apos;]/container[@automationid=&apos;windowsFormsHostControl&apos;]/?/?/container[@controlname=&apos;_child&apos;]//toolbar[@controlname=&apos;headerStrip&apos;]/text[@accessiblename=&apos;SQLDM Today&apos;]
+	[itempath] .//container[@automationid=&apos;viewContainer&apos;]/container[@automationid=&apos;windowsFormsHostControl&apos;]/?/?/container[@controlname=&apos;_child&apos;]//toolbar[@controlname=&apos;headerStrip&apos;]/text[@accessiblename=&apos;SQLDM Today&apos;]
+	[fullname] SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.SQLDMToday
+	[id] 0a7c7718a97047cfbbdacba2e04e6f8a
+	[timeout] 60000
+	[codefile] D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\LaunchApplication.cs
+	[itemindex] 5
+-------------------------------------------------------------------------------------------------------------------
+---[Info] Mouse Left Move item &apos;SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.ServerCMWIN2016&apos; at Center.---
+	[type] repoitem
+	[path] /form[@title~&apos;^Idera\ SQL\ diagnostic\ mana&apos;]//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]
+	[itempath] .//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]
+	[fullname] SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.ServerCMWIN2016
+	[id] 7e989666e9324b81935ea7242be88532
+	[timeout] 60000
+	[codefile] D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreOnDemandEstimatedPlan.cs
+	[itemindex] 0
+-------------------------------------------------------------------------------------------------------
+---[Error] Failed to find item &apos;SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.ServerCMWIN2016&apos;.&lt;br/&gt;No element found for path &apos;.//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]&apos; within 30s.---
+	[stacktrace]    at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.&lt;&gt;c__DisplayClass75_0`1.&lt;Find&gt;b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at SQLDMTestAutomation.SQLDMTestAutomationRepositoryFolders.IderaSQLDiagnosticManagerSQLdmRepoAppFolder.get_ServerCMWIN2016() in D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomationRepository.cs:line 887
+   at SQLDMTestAutomation.SQLDMRecordings.PreOnDemandEstimatedPlan.Ranorex.Core.Testing.ITestModule.Run() in D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreOnDemandEstimatedPlan.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)
+	[codefile] D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreOnDemandEstimatedPlan.cs
+	[type] repoitem
+	[path] /form[@title~&apos;^Idera\ SQL\ diagnostic\ mana&apos;]//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]
+	[itempath] .//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]
+	[fullname] SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.ServerCMWIN2016
+	[id] 7e989666e9324b81935ea7242be88532
+	[timeout] 60000
+	[itemindex] 0
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</stdout>
+          <stderr>---[Error] Failed to find item &apos;SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.ServerCMWIN2016&apos;.&lt;br/&gt;No element found for path &apos;.//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]&apos; within 30s.---
+	[modulepath] SQLDMTestAutomation\C164843_verify_Estimated_Query_plan_is_collected_when_globe_icon_of_a_batch_type_SQL_statement_is_se\PreOnDemandEstimatedPlan
+	[stacktrace]    at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.&lt;&gt;c__DisplayClass75_0`1.&lt;Find&gt;b__0()
+   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at SQLDMTestAutomation.SQLDMTestAutomationRepositoryFolders.IderaSQLDiagnosticManagerSQLdmRepoAppFolder.get_ServerCMWIN2016() in D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomationRepository.cs:line 887
+   at SQLDMTestAutomation.SQLDMRecordings.PreOnDemandEstimatedPlan.Ranorex.Core.Testing.ITestModule.Run() in D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreOnDemandEstimatedPlan.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)
+	[codefile] D:\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreOnDemandEstimatedPlan.cs
+	[codeline] 83
+	[type] repoitem
+	[path] /form[@title~&apos;^Idera\ SQL\ diagnostic\ mana&apos;]//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]
+	[itempath] .//container[@controlname=&apos;NavigationPaneControl&apos;]//container[@controlname=&apos;serverGroupPanel&apos;]/tree[@controlname=&apos;userViewTreeView&apos;]//treeitem[@accessiblename=&apos;CMWIN2016-S8&apos;]
+	[fullname] SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.ServerCMWIN2016
+	[id] 7e989666e9324b81935ea7242be88532
+	[timeout] 60000
+	[loglvl] Error
+	[itemindex] 0
+
+</stderr>
+          <failedSince>3</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>61.0</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

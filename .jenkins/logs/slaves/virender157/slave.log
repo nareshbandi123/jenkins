@@ -1,0 +1,14 @@
+JNLP agent connected from CIGNITI-W10/10.220.200.157
+Remoting version: 3.29
+This is a Windows agent
+Agent successfully connected and online
+ERROR: Connection terminated
+java.nio.channels.ClosedChannelException
+	at org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)
+	at org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:179)
+	at org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:795)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

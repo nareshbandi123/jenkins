@@ -1,0 +1,119 @@
+Started by user [8mha:////4PlJ7SKCPpM5Dqm0fbpYpTI2hKCOw9lsTKUvKBruQY28AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYe/dLi1CL9vMSi1OIMANjIKNHBAAAA[0mnareshb
+Building remotely on [8mha:////4GelLPoIoDyAtJV6o84EtcGrLZpHZBVixRr4I7BO93DqAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/bzEotTiDEMjSwCs60PYyAAAAA==[0mnaresh129 in workspace D:\jenkins\workspace\test2
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/nareshbandi123/test123.git # timeout=10
+Fetching upstream changes from https://github.com/nareshbandi123/test123.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress https://github.com/nareshbandi123/test123.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/full7mar^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/full7mar^{commit}" # timeout=10
+Checking out Revision 6a38fb60f0c0f243df728375068a9b193042f277 (refs/remotes/origin/full7mar)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 6a38fb60f0c0f243df728375068a9b193042f277
+Commit message: "created testruns"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 2c45bc856c130b4724c7a1e1ac458f9d27bcba0d # timeout=10
+Path To MSBuild.exe: C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe
+Executing the command cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe ./SQLDMTestAutomation/SQLDMTestAutomation.sln " && exit %%ERRORLEVEL%% from D:\jenkins\workspace\test2
+[test2] $ cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe ./SQLDMTestAutomation/SQLDMTestAutomation.sln " && exit %%ERRORLEVEL%%
+Active code page: 1252
+Microsoft (R) Build Engine version 4.7.3062.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 3/27/2019 3:04:56 AM.
+Project "D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation.sln" on node 1 (default targets).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|x86".
+Project "D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation.sln" (1) is building "D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj" (2) on node 1 (default targets).
+RemoveSolutionSettings:
+  Deleting file "bin\Debug\Ranorex.rxsettings".
+CopySolutionSettings:
+  Copying file from "D:\jenkins\workspace\test2\SQLDMTestAutomation\Ranorex.rxsettings" to "bin\Debug\Ranorex.rxsettings".
+ResolveAssemblyReferences:
+  Could not read state file "obj\x86\Debug\SQLDMTestAutomation.csprojResolveAssemblyReference.cache". The format of this state file is not valid.
+CoreCompile:
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /checked+ /nowarn:1701,1702 /nostdlib+ /platform:x86 /define:DEBUG;TRACE /main:__RxMain.__RxProgram /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Bootstrapper.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Core.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Core.Resolver.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Cef.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.ChromeWeb.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Delphi.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.FirefoxWeb.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Flex.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Java.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Mobile.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Msaa.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Office.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Qt.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.RawText.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Sap.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Uia.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Web.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.WebDriver.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Win32.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.WinForms.dll" /reference:"C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Plugin.Wpf.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.Linq.dll" /debug+ /debug:Full /optimize- /out:obj\x86\Debug\SQLDMTestAutomation.exe /subsystemversion:6.00 /target:exe /utf8output AssemblyInfo.cs Program.cs SQLDMRecordings\AddServerAndVerifyQueryPlanOptionEnabled.cs SQLDMRecordings\AddServerAndVerifyQueryPlanOptionEnabled.UserCode.cs SQLDMRecordings\CloseSQLDMApplication.cs SQLDMRecordings\CloseSQLDMApplication.UserCode.cs SQLDMRecordings\CloseMonitoredSqlServerWindow.cs SQLDMRecordings\CloseMonitoredSqlServerWindow.UserCode.cs SQLDMRecordings\CollapseAllServers.cs SQLDMRecordings\CollapseAllServers.UserCode.cs SQLDMRecordings\DisableQueryMonitor.cs SQLDMRecordings\DisableQueryMonitor.UserCode.cs SQLDMRecordings\EnableQueryMonitor.cs SQLDMRecordings\EnableQueryMonitor.UserCode.cs SQLDMRecordings\GlobalIconQuery.cs SQLDMRecordings\GlobalIconQuery.UserCode.cs SQLDMRecordings\LaunchApplication.cs SQLDMRecordings\LaunchApplication.UserCode.cs SQLDMRecordings\ListOfServers.cs SQLDMRecordings\ListOfServers.UserCode.cs SQLDMRecordings\ODEQPNDSQLSTMT.cs SQLDMRecordings\ODEQPNDSQLSTMT.UserCode.cs SQLDMRecordings\ODEQPWithNoData.cs SQLDMRecordings\ODEQPWithNoData.UserCode.cs SQLDMRecordings\OpenConfigureQueryMonitor.cs SQLDMRecordings\OpenConfigureQueryMonitor.UserCode.cs SQLDMRecordings\PerformQueryOperations.cs SQLDMRecordings\PerformQueryOperations.UserCode.cs SQLDMRecordings\PreconditionQueryMonitor.cs SQLDMRecordings\PreconditionQueryMonitor.UserCode.cs SQLDMRecordings\PreOnDemandEstimatedPlan.cs SQLDMRecordings\PreOnDemandEstimatedPlan.UserCode.cs SQLDMRecordings\QueriesTAB\ClickQueriesTab.cs SQLDMRecordings\QueriesTAB\ClickQueriesTab.UserCode.cs SQLDMRecordings\QueriesTAB\ClickWaitMonitoringTAB.cs SQLDMRecordings\QueriesTAB\ClickWaitMonitoringTAB.UserCode.cs SQLDMRecordings\QueriesTAB\NavigateToWaitMonitoring.cs SQLDMRecordings\QueriesTAB\NavigateToWaitMonitoring.UserCode.cs SQLDMRecordings\QueriesTAB\SelectQueryWaitForServers2017AndAbove.cs SQLDMRecordings\QueriesTAB\SelectQueryWaitForServers2017AndAbove.UserCode.cs SQLDMRecordings\RevertSelectTopToDefaultValue.cs SQLDMRecordings\RevertSelectTopToDefaultValue.UserCode.cs SQLDMRecordings\RunQueryForSQLStatement.cs SQLDMRecordings\RunQueryForSQLStatement.UserCode.cs SQLDMRecordings\RunQueryForStoredProcedure.cs SQLDMRecordings\RunQueryForStoredProcedure.UserCode.cs SQLDMRecordings\SelectQueryMonitorTab.cs SQLDMRecordings\SelectQueryMonitorTab.UserCode.cs SQLDMRecordings\SelectServer.cs SQLDMRecordings\SelectServer.UserCode.cs SQLDMRecordings\SelectSever2017Properties.cs SQLDMRecordings\SelectSever2017Properties.UserCode.cs SQLDMRecordings\SQLBatches.cs SQLDMRecordings\SQLBatches.UserCode.cs SQLDMRecordings\SQLStatement.cs SQLDMRecordings\SQLStatement.UserCode.cs SQLDMRecordings\StoredProcedures.cs SQLDMRecordings\StoredProcedures.UserCode.cs SQLDMRecordings\VerifyCollectQueryPlansToBeDisabled.cs SQLDMRecordings\VerifyCollectQueryPlansToBeDisabled.UserCode.cs SQLDMRecordings\Verifyquerydatadefaultcollectionoption.cs SQLDMRecordings\Verifyquerydatadefaultcollectionoption.UserCode.cs SQLDMRecordings\VerifyQueryStoreOption.cs SQLDMRecordings\VerifyQueryStoreOption.UserCode.cs SQLDMRecordings\VerifySelectByAndPlansBy.cs SQLDMRecordings\VerifySelectByAndPlansBy.UserCode.cs SQLDMRecordings\VerifySelectTopForMinMaxValues.cs SQLDMRecordings\VerifySelectTopForMinMaxValues.UserCode.cs SQLDMRecordings\VerifySelectTopToBeDisabled.cs SQLDMRecordings\VerifySelectTopToBeDisabled.UserCode.cs SQLDMRecordings\VerifySelectTopWithInvaildData.cs SQLDMRecordings\VerifySelectTopWithInvaildData.UserCode.cs SSMSRecordingds\ClickSQLdmRepositoryInLeftPanel.cs SSMSRecordingds\ClickSQLdmRepositoryInLeftPanel.UserCode.cs SSMSRecordingds\CloseSSMSApplication.cs SSMSRecordingds\CloseSSMSApplication.UserCode.cs SSMSRecordingds\ConnectToServer.cs SSMSRecordingds\ConnectToServer.UserCode.cs SSMSRecordingds\ExecuteQuery1.cs SSMSRecordingds\ExecuteQuery1.UserCode.cs SSMSRecordingds\LaunchSSMS.cs SSMSRecordingds\LaunchSSMS.UserCode.cs SSMSRecordingds\NewQueryContextMenu.cs SSMSRecordingds\NewQueryContextMenu.UserCode.cs SSMSRecordingds\ExecuteQuery.cs SSMSRecordingds\ExecuteQuery.UserCode.cs SSMSRecordingds\NextSqlFile.cs SSMSRecordingds\NextSqlFile.UserCode.cs SSMSRecordingds\VerifyMonitoredSQLServersTableColumns.cs SSMSRecordingds\VerifyMonitoredSQLServersTableColumns.UserCode.cs CommonMethods.cs UserCodeModule1.cs SQLDMTestAutomationRepository.cs D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\obj\x86\Debug\__RxPrograms.g.cs "C:\Users\administrator.SIMPSONS\AppData\Local\Temp\2\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs"
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0mSQLDMRecordings\CollapseAllServers.UserCode.cs(40,23): warning CS0219: The variable 'item' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0mSQLDMRecordings\CollapseAllServers.UserCode.cs(40,41): warning CS0219: The variable 'isFound' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0mSQLDMRecordings\ListOfServers.UserCode.cs(51,19): warning CS0219: The variable 'item' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0mCommonMethods.cs(56,19): warning CS0219: The variable 'item' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0mCommonMethods.cs(56,37): warning CS0219: The variable 'isFound' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Program Files (x86)\Ranorex 8.2\Bin\Ranorex.Core.Resolver.dll" to "bin\Debug\Ranorex.Core.Resolver.dll".
+_CopyOutOfDateSourceItemsToOutputDirectory:
+Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+_CopyOutOfDateSourceItemsToOutputDirectoryAlways:
+  Copying file from "D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.rxtmg" to "bin\Debug\SQLDMTestAutomation.rxtmg".
+  Copying file from "D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.rxtst" to "bin\Debug\SQLDMTestAutomation.rxtst".
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\SQLDMTestAutomation.exe" to "bin\Debug\SQLDMTestAutomation.exe".
+  SQLDMTestAutomation -> D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\SQLDMTestAutomation.exe
+  Copying file from "obj\x86\Debug\SQLDMTestAutomation.pdb" to "bin\Debug\SQLDMTestAutomation.pdb".
+Done Building Project "D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj" (default targets).
+Done Building Project "D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation.sln" (default targets).
+
+Build succeeded.
+
+"D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation.sln" (default target) (1) ->
+"D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj" (default target) (2) ->
+(CoreCompile target) -> 
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0m  SQLDMRecordings\CollapseAllServers.UserCode.cs(40,23): warning CS0219: The variable 'item' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0m  SQLDMRecordings\CollapseAllServers.UserCode.cs(40,41): warning CS0219: The variable 'isFound' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0m  SQLDMRecordings\ListOfServers.UserCode.cs(51,19): warning CS0219: The variable 'item' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0m  CommonMethods.cs(56,19): warning CS0219: The variable 'item' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+[8mha:////4MvWYpgA6OyYI6MJWX0aoPmwC+OoK8/2uMAoufWGMTtVAAAAZx+LCAAAAAAAAP9b85aBtbiIQTOjNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUSHJxblZeal++WXpP65vH32HJ1TQkwMDBVFDFJQfcn5ecX5Oal6zhAapJABAhhBCgsAtVBXn2cAAAA=[0m  CommonMethods.cs(56,37): warning CS0219: The variable 'isFound' is assigned but its value is never used [D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomation.csproj]
+
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.45
+Reportpath to merge. Base: D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\ Relative: ./Reports
+Merged path: D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\\Reports
+Executing : cmd.exe /C SQLDMTestAutomation.exe /runconfig:C164874 /reportfile:D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\\Reports\current-report.rxlog /junit
+[Debug] $ cmd.exe /C SQLDMTestAutomation.exe /runconfig:C164874 /reportfile:D:\jenkins\workspace\test2\SQLDMTestAutomation\SQLDMTestAutomation\bin\Debug\\Reports\current-report.rxlog /junit
+[2019/03/27 03:05:09.536][Debug  ][Logger]: Console logger starting.
+[2019/03/27 03:05:09.867][Info   ][Test]: Test Suite 'SQLDMTestAutomation' started.
+[2019/03/27 03:05:09.896][Info   ][Test]: Test Case 'C164874_Select_two_2008_version_instances_for_monitoring_and_verify_query_plan_options_are_enabled' started.
+[2019/03/27 03:05:10.008][Info   ][Test]: Test Module 'LaunchApplication' started.
+[2019/03/27 03:05:10.218][Info   ][Application]: Run application 'C:\Program Files\Idera\Idera SQL diagnostic manager\SQLdmDesktopClient.exe' with arguments '' in normal mode.
+[2019/03/27 03:05:10.918][Info   ][Delay]: Waiting for 3s.
+[2019/03/27 03:05:14.812][Info   ][Wait]: Waiting 1m to exist. Associated repository item: 'SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.SQLDMToday'
+[2019/03/27 03:05:40.235][Success][Test]: Test Module 'LaunchApplication' completed with status 'Success'.
+[2019/03/27 03:05:40.235][Info   ][Test]: Test Module 'AddServerAndVerifyQueryPlanOptionEnabled' started.
+[2019/03/27 03:05:40.306][Warn   ][Data]: The following module variables are not bound to a data column:
+Server1, Server2
+[2019/03/27 03:05:40.400][Info   ][Mouse]: Mouse Left Click item 'SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.File' at Center.
+[2019/03/27 03:05:42.886][Info   ][Mouse]: Mouse Left Move item 'SQLDM.SomeContextMenu.ManageServers' at Center.
+[2019/03/27 03:05:44.289][Info   ][Mouse]: Mouse Left Click item 'SQLDM.SomeContextMenu.ManageServers' at Center.
+[2019/03/27 03:05:45.717][Info   ][Delay]: Waiting for 1s.
+[2019/03/27 03:05:46.796][Info   ][Mouse]: Mouse Left Move item 'SQLDM.ManageServersDialog.AddButton' at Center.
+[2019/03/27 03:05:48.006][Info   ][Mouse]: Mouse Left Click item 'SQLDM.ManageServersDialog.AddButton' at Center.
+[2019/03/27 03:05:48.933][Info   ][Mouse]: Mouse Left Move item 'SQLDM.AddServersWizard.NextButton' at Center.
+[2019/03/27 03:05:51.383][Info   ][Mouse]: Mouse Left Click item 'SQLDM.AddServersWizard.NextButton' at Center.
+[2019/03/27 03:05:52.408][Info   ][Mouse]: Mouse Left Move item 'SQLDM.AddServersWizard.NextButton' at Center.
+[2019/03/27 03:05:53.457][Info   ][Mouse]: Mouse Left Click item 'SQLDM.AddServersWizard.NextButton' at Center.
+[2019/03/27 03:05:54.584][Info   ][Set value]: Setting attribute Text to '$Server1' on item 'SQLDM.AddServersWizard.Text'.
+[2019/03/27 03:05:55.726][Info   ][Keyboard]: Key sequence '{ENTER}' with focus on 'SQLDM.AddServersWizard.Text'.
+[2019/03/27 03:05:57.031][Info   ][Set value]: Setting attribute Text to '$Server2' on item 'SQLDM.AddServersWizard.Text'.
+[2019/03/27 03:05:58.024][Info   ][Keyboard]: Key sequence '{ENTER}' with focus on 'SQLDM.AddServersWizard.Text'.
+[2019/03/27 03:05:59.357][Info   ][Mouse]: Mouse Left Click item 'SQLDM.AddServersWizard.NextButton' at Center.
+[2019/03/27 03:06:00.600][Info   ][Mouse]: Mouse Left Click item 'SQLDM.AddServersWizard.NextButton' at Center.
+[2019/03/27 03:06:02.662][Info   ][Mouse]: Mouse Left Move item 'SQLDM.AddServersWizard.EnableQueryMonitorTraceCheckBox' at Center.
+[2019/03/27 03:06:04.181][Info   ][Mouse]: Mouse Left Click item 'SQLDM.AddServersWizard.EnableQueryMonitorTraceCheckBox' at Center.
+[2019/03/27 03:06:05.920][Info   ][Validation]: Validating AttributeEqual (Text='Duration (milliseconds)') on item 'SQLDM.AddServersWizard.PlansBy'.
+[2019/03/27 03:06:08.279][Success][Validation]: Attribute 'Text' of element for item 'SQLDMTestAutomationRepository.SQLDM.AddServersWizard.PlansBy' does match the specified value.
+[2019/03/27 03:06:08.334][Success][Test]: Test Module 'AddServerAndVerifyQueryPlanOptionEnabled' completed with status 'Success'.
+[2019/03/27 03:06:08.338][Info   ][Test]: Test Module 'CloseSQLDMApplication' started.
+[2019/03/27 03:06:08.406][Info   ][Delay]: Waiting for 5s.
+[2019/03/27 03:06:13.415][Success][Test]: Test Module 'CloseSQLDMApplication' completed with status 'Success'.
+[2019/03/27 03:06:13.416][Success][Test]: Test Case 'C164874_Select_two_2008_version_instances_for_monitoring_and_verify_query_plan_options_are_enabled' completed with status 'Success'.
+[2019/03/27 03:06:13.417][Success][Test]: Test Suite 'SQLDMTestAutomation' completed with status 'Success'.
+[2019/03/27 03:06:13.543][Debug  ][Logger]: Console logger stopping.
+Recording test results
+Triggering a new build of [8mha:////4ItkylY6YJ7MH/YKhEY3KEWNDGUTCblGMNn4Cohi8+xyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2S1OISQ30AlkRDx8AAAAA=[0mtest1
+Finished: SUCCESS

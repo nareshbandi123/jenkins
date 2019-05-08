@@ -1,0 +1,63 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.3">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/nareshbandi123/test123.git</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/full7mar</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <assignedNode>master</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.plugins.msbuild.MsBuildBuilder plugin="msbuild@1.29">
+      <msBuildName>msbuild</msBuildName>
+      <msBuildFile>./SQLDMTestAutomation/SQLDMTestAutomation.sln</msBuildFile>
+      <cmdLineArgs></cmdLineArgs>
+      <buildVariablesAsProperties>false</buildVariablesAsProperties>
+      <continueOnBuildFailure>false</continueOnBuildFailure>
+      <unstableIfWarnings>false</unstableIfWarnings>
+      <doNotUseChcpCommand>false</doNotUseChcpCommand>
+    </hudson.plugins.msbuild.MsBuildBuilder>
+    <com.ranorex.jenkinsranorexplugin.RanorexRunnerBuilder plugin="ranorex-integration@0.2.0">
+      <rxTestSuiteFilePath>./SQLDMTestAutomation/SQLDMTestAutomation/bin/Debug/SQLDMTestAutomation.rxtst</rxTestSuiteFilePath>
+      <rxRunConfiguration>TestRun</rxRunConfiguration>
+      <rxReportDirectory>./Reports</rxReportDirectory>
+      <rxReportFile>current-report</rxReportFile>
+      <rxReportExtension>rxlog</rxReportExtension>
+      <rxJUnitReport>true</rxJUnitReport>
+      <rxZippedReport>false</rxZippedReport>
+      <rxZippedReportDirectory></rxZippedReportDirectory>
+      <rxZippedReportFile></rxZippedReportFile>
+      <rxGlobalParameter></rxGlobalParameter>
+      <cmdLineArgs></cmdLineArgs>
+    </com.ranorex.jenkinsranorexplugin.RanorexRunnerBuilder>
+  </builders>
+  <publishers>
+    <hudson.tasks.junit.JUnitResultArchiver plugin="junit@1.27">
+      <testResults>SQLDMTestAutomation/SQLDMTestAutomation/bin/Debug/Reports/current-report.rxlog.junit.xml</testResults>
+      <keepLongStdio>false</keepLongStdio>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <allowEmptyResults>false</allowEmptyResults>
+    </hudson.tasks.junit.JUnitResultArchiver>
+  </publishers>
+  <buildWrappers/>
+</project>

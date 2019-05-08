@@ -1,0 +1,37 @@
+Started by user [8mha:////4PlJ7SKCPpM5Dqm0fbpYpTI2hKCOw9lsTKUvKBruQY28AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgYe/dLi1CL9vMSi1OIMANjIKNHBAAAA[0mnareshb
+Building remotely on [8mha:////4GelLPoIoDyAtJV6o84EtcGrLZpHZBVixRr4I7BO93DqAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/bzEotTiDEMjSwCs60PYyAAAAA==[0mnaresh129 in workspace D:\jenkins\workspace\test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/nareshbandi123/test123.git
+ > C:\Program Files\Git\bin\git.exe init D:\jenkins\workspace\test # timeout=10
+Fetching upstream changes from https://github.com/nareshbandi123/test123.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress https://github.com/nareshbandi123/test123.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/nareshbandi123/test123.git # timeout=10
+ > C:\Program Files\Git\bin\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/nareshbandi123/test123.git # timeout=10
+Fetching upstream changes from https://github.com/nareshbandi123/test123.git
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress https://github.com/nareshbandi123/test123.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/full7mar^{commit}" # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/origin/full7mar^{commit}" # timeout=10
+Checking out Revision 2c45bc856c130b4724c7a1e1ac458f9d27bcba0d (refs/remotes/origin/full7mar)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 2c45bc856c130b4724c7a1e1ac458f9d27bcba0d
+Commit message: "modified all test cases of ank as per new rep"
+First time build. Skipping changelog.
+Path To MSBuild.exe: C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe
+Executing the command cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe /SQLDMTestAutomation/SQLDMTestAutomation.sln " && exit %%ERRORLEVEL%% from D:\jenkins\workspace\test
+[test] $ cmd.exe /C " chcp 1252 & C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe /SQLDMTestAutomation/SQLDMTestAutomation.sln " && exit %%ERRORLEVEL%%
+Active code page: 1252
+Microsoft (R) Build Engine version 4.7.3062.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+[8mha:////4FtVBy1m6JxVU/ZlwClKkFBuwsYzqXkKFpC5krCGPzqiAAAAZR+LCAAAAAAAAP9b85aBtbiIQT2jNKU4P0+vIKc0PTOvWC+3OKk0MydFzzfYCUS7FhXlF/nll6RqTW873+akuJiJgaGiiEEKqis5P684PydVzxlCgxQyQAAjSGEBAFZoBDtlAAAA[0mMSBUILD : error MSB1001: Unknown switch.
+Switch: /SQLDMTestAutomation/SQLDMTestAutomation.sln
+
+For switch syntax, type "MSBuild /help"
+Build step 'Build a Visual Studio project or solution using MSBuild' marked build as failure
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+Finished: FAILURE
